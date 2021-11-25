@@ -1,5 +1,5 @@
 # Sample Data set
-This directory contains sample data set, in *.csv* format, for the three experiments conducted on the AWS. The details of the data files is as follows:
+This directory contains sample data set, in *.csv* format, for the three experiments conducted on the AWS. 
 
 ## File description
 **1. us-east-1_AZa.csv:** This file contains sample data for the intra-AZ experiment, where instances were hosted in region us-east-1 (North Virginia), AZ a.
