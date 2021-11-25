@@ -11,7 +11,7 @@ This directory contains sample data set, in *.csv* format, for the three experim
 Each of the three files contains a subset of the data set, i.e., 300K pings.
 
 ## Data format
-The format of each of the three *.csv* files is as folles:
+The format of each of the three *.csv* files is as follows:
 
 *_tx,rx,year,month,date,hour,min,rtt_*
 
@@ -25,4 +25,4 @@ year, month, date, hour, min: This date and time information is extracted from t
 
 rtt: Represents the round trip time of the ping in microseconds
 
-Each ping lost does not have an "rx" timestamp. Therefore, for completeness, we represent "rx" of lost ping by XXXXXXXXXXXXXXXX and set its "rtt" to 0.0.
+*Note:* Each ping lost does not have an "rx" timestamp. Therefore, for completeness, we represent "rx" of lost ping by XXXXXXXXXXXXXXXX and set its "rtt" to 0.0.
